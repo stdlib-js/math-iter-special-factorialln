@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterFactorialln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-factorialln@deno/mod.js';
+import iterFactorialln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-factorialln@v0.2.2-deno/mod.js';
 ```
 
 #### iterFactorialln( iterator )
@@ -109,7 +109,7 @@ The returned [iterator][mdn-iterator-protocol] protocol-compliant object has the
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-discrete-uniform@deno/mod.js';
-import iterFactorialln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-factorialln@deno/mod.js';
+import iterFactorialln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-factorialln@v0.2.2-deno/mod.js';
 
 // Create a seeded iterator for generating pseudorandom numbers:
 var rand = discreteUniform( 0, 171, {
